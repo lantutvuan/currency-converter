@@ -1,0 +1,35 @@
+*, *::after, *::before {
+  font-family: sans-serif;
+  
+}
+
+.equals {
+  font-size: 4rem;
+}
+
+body {
+  margin: 0;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+input {
+  font-size: 1.5rem;
+  width: 16rem;
+  height: 2rem;
+  padding: 0.5rem;
+  border: 0.100em solid rgb(40, 40, 40);
+}
+
+select {
+  font-size: 1.5rem;
+  width: 8rem;
+  height: 3rem;       
+  padding: 0.5rem;
+  margin-left: 1rem;
+  border: 0.100em solid rgb(40, 40, 40);
+}
